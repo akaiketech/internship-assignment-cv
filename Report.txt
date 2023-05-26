@@ -1,0 +1,13 @@
+Load the fully annotated image
+Convert the fully annotated image to grayscale
+Apply image segmentation (e.g., using thresholding)
+Find contours
+Initialize variables to store the largest contour and its dimensions
+Iterate over the contours
+Get the bounding rectangle around the contour
+Update the largest contour and its dimensions if necessary
+Create a blank mask
+Draw the largest contour on the mask
+Convert the mask to a 3-channel image
+Apply the mask to the fully annotated image
+Display the result image
